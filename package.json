@@ -26,7 +26,7 @@
         "url": "git+https://github.com/AveryOverton/renew-css.git"
     },
     "scripts": {
-        "postcss": "postcss src/index.css --config postcss.config.js --no-map --output dist/index.css"
+        "build": "postcss src/index.css --config postcss.config.js --no-map --output dist/index.css"
     },
     "version": "1.0.0"
 }
